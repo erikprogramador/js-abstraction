@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Entre em contato</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <form id="contact" action="" method="post">
+            <h3>Entre em contato</h3>
+            <h4>Respondemos em até 24h</h4>
+            <fieldset>
+                <input id="name" placeholder="Seu Nome" type="text" tabindex="1" required autofocus>
+            </fieldset>
+            <fieldset>
+                <input id="email" placeholder="Seu E-mail" type="email" tabindex="2" required>
+            </fieldset>
+            <fieldset>
+                <input id="phone" placeholder="Seu Telefone" type="tel" tabindex="3" required>
+            </fieldset>
+            <fieldset>
+                <input id="site" placeholder="Seu Site (comece com http(s)://)" type="url" tabindex="4" required>
+            </fieldset>
+            <fieldset>
+                <textarea id="message" placeholder="Digite sua mensagem aqui" tabindex="5" required></textarea>
+            </fieldset>
+            <fieldset>
+                <button id="submit" name="submit" type="submit" data-submit="Enviando...">Enviar</button>
+            </fieldset>
+        </form>
+
+
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
